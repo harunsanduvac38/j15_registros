@@ -1,6 +1,8 @@
 package tests;
 
-import clasesdto.ClienteDTO;
+//import clasesdto.ClienteDTO;
+import registrosdto.ClienteDTO;
+
 
 public class TestClienteDTO {
 	public static void main(String[] args) {
@@ -9,7 +11,8 @@ public class TestClienteDTO {
 		ClienteDTO cli2 = new ClienteDTO(1231, "De la Fuente", 123123, "VIP");
 		ClienteDTO cli3 = new ClienteDTO(234234, "Otro Distinto", 54323, "VIP");
 		
-		System.out.println(cli1.getApellidos());
+//		System.out.println(cli1.getApellidos());
+		System.out.println(cli1.apellidos());
 		
 		System.out.println(cli1);
 		
